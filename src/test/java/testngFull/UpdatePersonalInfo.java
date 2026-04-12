@@ -31,7 +31,8 @@ public class UpdatePersonalInfo {
 	public Object[][] getEditLastName(){
 		return new Object[][] {
 								{"Diaz"},
-								{"Max"}
+								{"Max"},
+								{"Maximus"}
 								};
 								}
 	
