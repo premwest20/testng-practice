@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"-->
+
+<!-- 
+<suite name="Suite">
+  <test thread-count="5" name="TestFirst">
+  
+    <classes>
+      <class name="testngFull.UpdatePersonalInfo"/>
+      <methods>
+      	<include name = "editLastName"></include>
+      </methods>
+      <class name="testngFull.AddTravelPlan"/>
+      <methods> 
+      	<exclude name= "addTravelPlan"></exclude>
+      </methods>
+      <class name="testngFull.UpdateContactInfo"/>
+      
+    </classes>
+  Test 
+  
+  </suite> 
+  -->
+  
+  <suite name = "SuiteTwo">
+  	
+  	  	
+  	<test name = "TestSecond">
+  	  		
+  <groups>
+  	<run>
+  		<include name = "sanity"></include>
+  	</run>
+  </groups>
+  
+ 	<classes>
+      <class name="testngFull.UpdatePersonalInfo">
+      <methods>
+      	<include name = "editLastName"></include>
+      </methods>
+      </class>
+      
+      <class name="testngFull.AddTravelPlan">
+       </class>
+       
+        <parameter name = "addMailingAddressTwo" value = "abc@gmail.com"/>
+        
+      <class name="testngFull.UpdateContactInfo">
+        </class>
+       
+       <class name = "testngFull.AssertTry">
+       	<include name = "updateCli"></include>
+        </class>
+       
+    </classes> 	
+ 	
+  	</test> 
+  </suite>
