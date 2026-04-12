@@ -46,8 +46,18 @@ public class UpdatePersonalInfo {
 	@Test
 	public void mainBranchAdd(){
 	System.out.println("Updated from MAIN branch");
+	System.out.println("Conflict resolved and Updated from FEATURE branch");
 	}
-	
+//<<<<<<< HEAD
+//=======
+//	
+//	@Test
+//	public void featureBranchAdd(){
+//	System.out.println("Updated from FEATURE branch");
+//	}
+//	
+//>>>>>>> feature-login
+//	
 	
 	@Test
 	public void editPrefix() {
