@@ -43,6 +43,16 @@ public class UpdatePersonalInfo {
 		System.out.println("Last Name is edited with " + lastName);
 	}
 	
+	@Test
+	public void mainBranchAdd(){
+	System.out.println("Updated from MAIN branch");
+	}
+	
+	@Test
+	public void featureBranchAdd(){
+	System.out.println("Updated from FEATURE branch");
+	}
+	
 	
 	
 	@Test
