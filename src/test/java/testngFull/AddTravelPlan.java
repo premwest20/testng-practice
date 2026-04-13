@@ -10,6 +10,11 @@ public class AddTravelPlan {
 		System.out.println("Travel Plan is added");
 	}
 	
+	@Test(priority = 3, groups = "sanity")
+	public void addLargePurchPlan() {
+		System.out.println("Large Purchase Plan is added");
+	}
+	
 	@Test(priority = 2)
 	public void deleteTravelPlan() {
 		System.out.println("Travel Plan is deleted");
