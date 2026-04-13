@@ -15,6 +15,11 @@ public class AddTravelPlan {
 		System.out.println("Large Purchase Plan is added");
 	}
 	
+	@Test(priority = 4, groups = "regression")
+	public void editLargePurchPlan() {
+		System.out.println("Large Purchase Plan is edited");
+	}
+	
 	@Test(priority = 2)
 	public void deleteTravelPlan() {
 		System.out.println("Travel Plan is deleted");
