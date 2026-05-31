@@ -92,5 +92,7 @@ public class HomePageFive {
 		
 		//Git Revert Practice
 		
+		//Git Reset Practice
+		
 	}
 }
