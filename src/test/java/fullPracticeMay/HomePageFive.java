@@ -89,7 +89,7 @@ public class HomePageFive {
 		Assert.assertTrue(driver.findElement(frameImage).isDisplayed());
 		driver.switchTo().parentFrame();//switches to previous frame
 		wait.until(ExpectedConditions.visibilityOfElementLocated(alertButton));
-		
+		System.out.println(driver.getTitle());
 		//Git Revert Practice
 		
 		//Git Reset Practice
