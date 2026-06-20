@@ -15,7 +15,7 @@ public class TestClassParaBank extends BaseTest{
 	LoginPageParaBank loginpage = new LoginPageParaBank(driver, wait);
 	loginpage.loginPara("user12", "pass12");
 	System.out.println("Friday Jenkins practice");
-	
+	System.out.println("Second Jenkins practice");
 	
 	}
 
